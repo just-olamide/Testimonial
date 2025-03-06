@@ -3,28 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: hsl(0, 0%, 81%);
+}
 .human{
     display: flex;
     gap: 10px;
 }
 .human img{
     border-radius: 50%;
-    width: 5%;
+    border: 2px solid;
+    border-color:hsl(264, 82%, 80%) ;
+    /* width: 5%; */
 }
 .container1{
     width: 100%;
-    border: 1px solid;
 }
 .purple{
-    border: 2px solid red;
-    width: 40%;
+    width: 55%;
     background-color: hsl(263, 55%, 52%);
-    padding: 10px;
+    padding: 20px;
+    border-radius: 7px;
+    color: hsl(260, 100%, 95%);
+    padding-bottom: 20px;
+}
+.purple h3{
+    margin-top: 20px;
+}
+#first{
+    margin-top: 20px;
+    line-height: 20px;
 }
 .hero{
     background-image: url("/images/bg-pattern-quotation.svg");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 85% 1%;
 }
 .container2{
     display: flex;
@@ -32,41 +45,84 @@
     width: 100%;
 }
 .grey{
-    border: 2px solid red;
     width: 30%;
     background-color:hsl(217, 19%, 35%) ;
-    color: white;
-    padding: 10px;
+    color: hsl(0, 0%, 81%);
+    padding: 15px;
+    border-radius: 7px;
+}
+.non{
+    margin-top: 10px;
+}
+.non img{
+    border: none;
+}
+.grey h3{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#second{
+    margin-top: 25px;
+    line-height: 20px;
 }
 .white{
     width: 30%;
-    border: 2px solid red;
     margin-top: 30px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: White: hsl(0, 0%, 100%);
+    padding: 15px;
+    color: hsl(219, 29%, 14%);
+    border-radius: 7px;
+    background-color: hsl(0, 0%, 100%);
+}
+.white h3{
+    margin-top: 25px;
+}
+#third{
+    margin-top: 10px;
+    line-height: 20px;
 }
 .container3{
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 .black{
-    border: 2px solid red;
-    width: 50%;
+    width: 55%;
     background-color:  hsl(219, 29%, 14%);
-    color: white;
+    color:   hsl(0, 0%, 81%);
     margin-top: 30px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
 
+}
+.black h3{
+    margin-top: 20px;
+}
+#fourth{
+    margin-top: 10px;
+    line-height: 19px;
+}
+.nonn{
+    border-color: hsl(263, 55%, 52%);
 }
 .over-allcontainer{
     display: flex;
     flex-direction: row;
-    
-    width: 100%;
+    width: 90%;
 }
 .final{
-    border: 2px solid red;
     width: 25%;
+    padding: 10px;
+    background-color:white;
+    color:  hsl(217, 19%, 35%); 
+    border-radius: 7px;
+}
+.final h3{
+    margin-top: 20px;
+}
+#fifth{
+    margin-top: 15px;
+    line-height: 20px;
+}
+.over-allcontainer{
+    margin: 50px;
+    font-family: Barlow Semi Condensed;
 }
