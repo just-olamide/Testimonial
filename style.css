@@ -20,7 +20,7 @@ body{
     width: 100%;
 }
 .purple{
-    width: 55%;
+    width: 60%;
     background-color: hsl(263, 55%, 52%);
     padding: 20px;
     border-radius: 7px;
@@ -83,9 +83,10 @@ body{
 .container3{
     display: flex;
     gap: 30px;
+    width: 100%;
 }
 .black{
-    width: 55%;
+    width: 60%;
     background-color:  hsl(219, 29%, 14%);
     color:   hsl(0, 0%, 81%);
     margin-top: 30px;
@@ -107,6 +108,8 @@ body{
     display: flex;
     flex-direction: row;
     width: 90%;
+    margin: 50px;
+    font-family: Barlow Semi Condensed;
 }
 .final{
     width: 25%;
@@ -120,9 +123,49 @@ body{
 }
 #fifth{
     margin-top: 15px;
-    line-height: 20px;
 }
-.over-allcontainer{
-    margin: 50px;
-    font-family: Barlow Semi Condensed;
+
+
+
+
+@media screen and (max-width: 500px){
+   .over-allcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 30px;
+   }
+   .hero{
+    background-image: none;
+   }
+   .container2{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+   }
+   .container3{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+   }
+  .purple{
+    width: 100%;
+  }
+  .grey{
+    width: 100%;
+  }
+  .white{
+    width: 100%;
+  }
+  .black{
+    width: 100%;
+  }
+  .final{
+    width: 90%;
+    margin-top: 30px;
+  }
+    
+
+
 }
+
